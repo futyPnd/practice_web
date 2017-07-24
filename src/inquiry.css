@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*html----------------------------------*/
+html{
+  overflow: auto;
+}
+
+/*body----------------------------------*/
+body{
+  margin: 0;
+}
+
+h1{
+  background-color: #1fcfb9;
+  overflow: hidden;
+  margin: 0;
+  padding: 15px 0 20px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: fantasy;
+}
+
+a:hover{
+  color: #000000;
+  transition: color linear 0.5s;
+}
+
+body form{
+  background-color: #e8d9d9;
+  overflow: hidden;
+  margin: 0;
+}
+
+.comment{
+  border-bottom: 3px dotted #ffffff;
+}
+
+.name{
+  margin-top: 30px;
+}
+
+div{
+  font-size: 17px;
+}
+
+.inquiry{
+  margin-top: 25px;
+}
+
+.input{
+  margin-bottom: 20px;
+}
+
+.input:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transition: color linear 0.3s;
+  transition: background-color linear 0.3s;
+}
+
+/*footer--------------------------------*/
+
+footer {
+  background-color: #1fcfb9;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer nav a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0 50px;
+  color: #ffffff;
+  display: inline-block;
+  /*border-bottom: 1px dotted #ffffff;*/
+}
+
+footer a span {
+  border-bottom: 1px dotted #ffffff;
+}
+
+footer p {
+  text-align: right;
+  padding-right: 10px;
+}
+
+footer p a {
+  font-size: 10px;
+  border-bottom: none;
+  text-decoration: none;
+  color: #ffffff
+}
+
+footer span:hover {
+  color: #000000;
+  transition: color linear 0.5s;
+  font-family: fantasy;
+}
