@@ -4,12 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>お問い合わせ・コメント</title>
+  <link rel="stylesheet" href="src/inquiry.css">
 </head>
 
 <body>
-  <h3>コメント・お問い合わせフォーム</h3>
-  <form action="sucsess.html" method="post">
-    <p><label>名前: </label><input type="text" name="name"></p>
+  <h1><a href="inquiry.html">COMMENT and INQUIRY</a></h1>
+  <form class="comment" action="sucsess.html" method="post">
+    <p class="name"><label>名前: </label><input type="text" name="name"></p>
     <legend>性別</legend>
     <label for="name">
       <p>
@@ -21,25 +22,25 @@
       ↓コメントお待ちしております♪<br>
       <textarea name="comment" rows="5" cols="50"></textarea>
     </div>
-    <input type="submit" value="コメントを残す">
+    <input type="submit" class="input" value="コメントを残す">
   </form>
 
   <form action="sucsess.html" method="post">
-    <div>
+    <div class="inquiry">
       ↓お問い合わせはこちらからどうぞ♪<br>
       <textarea name="inquiry" rows="5" cols="50"></textarea>
     </div>
-    <input type="submit" value="送信">
+    <input type="submit" class="input" value="送信">
   </form>
 
 </body>
 
 <footer>
   <nav>
-    <a href="index.html">TopPage</a>
-    <a href="about.html">About this page</a>
+    <a href="index.html"><span>TopPage</span></a>
+    <a href="about.html"><span>About this site</span></a>
   </nav>
-  <p>Last Update: 2017/7/17</p>
+  <p>Last Update: <a href="https://www.google.co.jp/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi00PK7gJ3VAhWLTLwKHeXrBB0QFggnMAA&url=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Frender%3Fhl%3Dja&usg=AFQjCNEHFdtCcTBqEoCylNjxByGgJlD_Jg">2017/07/24</a></p>
 </footer>
 
 </html>
