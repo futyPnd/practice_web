@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/*html----------------------------------*/
+
+html {
+  overflow: auto;
+}
+
+
+/*body----------------------------------*/
+
+body {
+  margin: 0;
+}
+
+/*header--------------------------------*/
+header{
+  background-color: #1fcfb9;
+  overflow: hidden;
+  margin: 0;
+}
+
+header p a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 15px 0 18px 18px;
+  font-family: fantasy;
+}
+
+.title span{
+  color: #000000;
+}
+
+.title:hover{
+  color: #a10000;
+  transition: color linear 0.5s;
+}
+
+.list li{
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.list li a{
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 40px;
+}
+
+header ul{
+  text-align: center;
+}
+.list li a:hover{
+  font-family: fantasy;
+  color: #000000;
+  transition: color linear 0.5s;
+  border-bottom: 2px dotted #000000;
+}
+
+/*main----------------------------------*/
+main{
+  background-color: #e8d9d9;
+  overflow: hidden;
+  margin: 0;
+  padding: 25px 0 30px;
+}
+
+main ul li{
+  font-size: 18px;
+  list-style: none;
+}
+
+main ul li span{
+  font-weight: 700;
+  border-bottom: 2px dotted #ffffff;
+}
+
+main ul li a{
+  text-decoration: none;
+  color: #820000;
+}
+
+main ul li a:hover{
+  border-bottom: 1px dotted #ffffff;
+  color: #c22323;
+  transition: color linear 0.4s;
+}
+
+main p{
+  font-size: 20px;
+  background-color: rgba(131, 144, 255, 0.2);
+  padding: 10px;
+  font-weight: 600;
+}
+
+.comment{
+  font-size: 17px;
+  background: rgba(255, 0, 0, 0.3);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.comment:hover{
+  color: #000000;
+  transition: color linear 0.5s;
+}
+
+/*footer--------------------------------*/
+
+footer {
+  background-color: #1fcfb9;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer nav a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0 50px;
+  color: #ffffff;
+  display: inline-block;
+  /*border-bottom: 1px dotted #ffffff;*/
+}
+
+footer a span {
+  border-bottom: 1px dotted #ffffff;
+}
+
+footer p {
+  text-align: right;
+  padding-right: 10px;
+}
+
+footer p a {
+  font-size: 10px;
+  border-bottom: none;
+  text-decoration: none;
+  color: #ffffff
+}
+
+footer span:hover {
+  color: #000000;
+  transition: color linear 0.5s;
+  font-family: fantasy;
+}
