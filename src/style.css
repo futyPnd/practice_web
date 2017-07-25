@@ -27,6 +27,7 @@ header a {
   text-decoration: none;
   font-size: 32px;
   color: #ffffff;
+  font-family: fantasy;
 }
 
 header h1 {
@@ -65,8 +66,8 @@ header li a {
 
 header li a:hover {
   color: #000000;
-  font-family: fantasy;
   transition: color linear 0.3s;
+  border-bottom: 1px dotted #000000;
 }
 
 header h1 a:hover {
@@ -155,17 +156,28 @@ main article a{
 
 main .comment{
   font-size: 17px;
-  background: rgba(255, 0, 0, 0.3);
+  background: rgba( 255, 255, 255, 0.7);
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 main .comment:hover{
-  color: #000000;
+  color: #ffffff;
+  background: rgba(0, 130, 107, 0.3);
+  transition: color linear 0.5s;
+  transition: background linear 0.4s;
 }
 
 main article{
   border-top: 3px dotted #ffffff;
+}
+
+main article a:hover{
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.3);
+  transition: color linear 0.5s;
+  transition: background linear 0.4s;
+  padding: 0 15px;
 }
 
 /*footer--------------------------------*/
@@ -187,11 +199,7 @@ footer nav a {
   padding: 0 50px;
   color: #ffffff;
   display: inline-block;
-  /*border-bottom: 1px dotted #ffffff;*/
-}
-
-footer a span {
-  border-bottom: 1px dotted #ffffff;
+  font-family: fantasy;
 }
 
 footer p {
@@ -209,5 +217,8 @@ footer p a {
 footer span:hover {
   color: #000000;
   transition: color linear 0.5s;
-  font-family: fantasy;
+}
+
+footer nav a:hover{
+  border-bottom: 1px dotted #000000;
 }

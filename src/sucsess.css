@@ -58,11 +58,7 @@ footer nav a {
   padding: 0 50px;
   color: #ffffff;
   display: inline-block;
-  /*border-bottom: 1px dotted #ffffff;*/
-}
-
-footer a span {
-  border-bottom: 1px dotted #ffffff;
+  font-family: fantasy;
 }
 
 footer p {
@@ -80,5 +76,5 @@ footer p a {
 footer span:hover {
   color: #000000;
   transition: color linear 0.5s;
-  font-family: fantasy;
+  border-bottom: 1px dotted #000000;
 }
